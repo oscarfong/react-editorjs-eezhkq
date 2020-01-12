@@ -24,10 +24,11 @@ class App extends Component {
         <p>
           Start editing to see some magic happen :)
         </p>
-        <div>
+        <div class="preEditorjs">
             <EditorJs data={data} />
+        
         </div>
-      </div>
+       </div>
     );
   }
 }

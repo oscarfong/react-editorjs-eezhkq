@@ -18,6 +18,8 @@ class App extends Component {
   }
 
   render() {
+
+    // see: https://www.npmjs.com/package/react-editor-js
     return (
       <div>
         <Hello name={this.state.name} />
